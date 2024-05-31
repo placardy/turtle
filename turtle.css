@@ -1,0 +1,96 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+      background-image: url("img/bg4.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-color: #03070a;
+      color: white;
+      text-align: center;
+    }
+
+    .title {
+        text-align: left;
+        margin-left: 150px;
+        margin-top: 150px;
+        margin-bottom: 35%;
+    }
+
+    .title h1 {
+        font-size: 70px;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+
+    h2, p {
+        margin-bottom: 20px;
+    }
+
+    .facts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .block {
+        width: 270px;
+        margin-bottom: 30px;
+    }
+
+    .block img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+    }
+
+    .block p {
+        width: 80%;
+        margin: auto;
+    }
+
+    img {
+        width: 70%;
+        margin-bottom: 80px;
+
+    }
+
+    input {
+        font-size: 20px;
+        border-radius: 40px;
+        width: 350px;
+        height: 50px;
+        padding-left: 20px; /* Размер отступа */
+        margin-top: 7px;
+    }
+
+    button {
+        width: 300px;
+        height: 60px;
+        border-radius: 40px;
+        font-size: 20px;
+        margin-top: 20px;
+        background-color: #d1cfcf;
+        margin-bottom: 300px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+
+    button:hover {
+        background-color: #108bb9;
+        transform: translateY(2px);
+    }
+    .imgt {
+        margin-top: 80px;
+    }
